@@ -168,6 +168,11 @@ body {
     background: #073642;
     border-bottom: 0;
   }
+
+  img {
+    border: 2px solid #073642;
+    border-radius: 10px;
+  }
   
   .auth-image {
     float: left;
