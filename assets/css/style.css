@@ -242,3 +242,22 @@ body {
   #secondRow {
     margin-left: 80px;
   }
+
+  @media screen and (max-width: 640px) {
+	a {
+		text-align: center;
+		display: -webkit-inline-box;
+  }
+}
+  
+  @media screen and (max-width: 992px) {
+    .navbar-collapse.collapse.show {
+      text-align: right;
+    }
+
+    .navbar-brand {
+      text-align: center;
+    }
+}
+
+  
