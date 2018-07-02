@@ -20,8 +20,7 @@ body {
   
   h1,
   h2,
-  h3,
-  p {
+  h3 {
     margin-bottom: 20px;
   }
 
@@ -33,7 +32,13 @@ body {
     margin-bottom: 0;
   }
   
-
+#info {
+  text-align: center;
+}
+#location, 
+#cell {
+  margin: 0;
+}
   
   h1 {
     padding-bottom: 20px;
@@ -118,6 +123,20 @@ body {
     border-bottom: 2px solid #eee;
   }
   
+  .resumeHeader {
+    font-weight: bold;
+    border-bottom: 0px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    padding-bottom: 0px;
+  }
+
+  .educationTitle2,
+  .experienceTitle2 {
+    margin-bottom: 0px;
+    font-size: 17px;
+  }
+
   /* main */
   
   #main-container {
@@ -181,7 +200,20 @@ body {
     margin-top: 10px;
     margin-right: 25px;
   }
-  
+
+  .experienceTitle,
+  .educationTitle {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 17px;
+  }
+
+  li {
+    color: black;
+    margin-left: 22px;
+  }
+
   /* contact page */
   
   #contact-form ul {
