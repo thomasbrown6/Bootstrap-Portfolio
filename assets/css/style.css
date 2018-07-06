@@ -84,9 +84,9 @@ body {
     margin-top: 0px;
   }
   
+  
   nav a {
     padding-left: 15px;
-    margin-left: 15px;
     line-height: 18px;
     color: #999;
     text-decoration: none;
@@ -127,8 +127,9 @@ body {
     font-weight: bold;
     border-bottom: 0px;
     margin-bottom: 5px;
-    font-size: 22px;
+    font-size: 25px;
     padding-bottom: 0px;
+    color: #073642;
   }
 
   .educationTitle2,
@@ -141,9 +142,9 @@ body {
   
   #main-container {
     padding-top: 130px;
-    min-height: calc(100vh - 70px);
+    /* min-height: calc(100vh - 70px); */
   }
-  
+
   .main-section {
     float: left;
     width: 100%;
@@ -151,7 +152,7 @@ body {
     padding: 30px;
     margin: 0 0 40px;
     background: #fff;
-    border: 1px solid #ddd;
+ 
   }
   
   /* portfolio page */
@@ -188,7 +189,7 @@ body {
     border-bottom: 0;
   }
 
-  img {
+  .work {
     border: 2px solid #073642;
     border-radius: 10px;
   }
@@ -264,32 +265,28 @@ body {
     width: 100%;
   }
 
-  #firstRow {
-    width: 100%;
-    border-bottom-width: 100%;
-  }
 
   
 
-  #secondRow {
-    margin-left: 80px;
-  }
-
-  @media screen and (max-width: 640px) {
-	a {
-		text-align: center;
-		display: -webkit-inline-box;
-  }
-}
-  
   @media screen and (max-width: 992px) {
-    .navbar-collapse.collapse.show {
-      text-align: right;
+    .col-md-1 {
+      display: none;
     }
-
-    .navbar-brand {
-      text-align: center;
+    .work {
+      margin-left: 14px;
+    }
+}
+  
+  @media screen and (max-width: 767px) {
+    .work {
+      margin-left: 43px;
+      width: 360px;
     }
 }
 
-  
+@media screen and (max-width: 420px) and (max-height: 700px) {
+  .work {
+    margin-left: 43px;
+      width: 360px;
+  }
+}
