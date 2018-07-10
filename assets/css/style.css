@@ -266,7 +266,9 @@ body {
   }
 
 
-  
+
+
+
 
   @media screen and (max-width: 992px) {
     .col-md-1 {
@@ -280,6 +282,7 @@ body {
     .work img {
       height: 100%;
     }
+    
 }
   
   @media screen and (max-width: 767px) {
