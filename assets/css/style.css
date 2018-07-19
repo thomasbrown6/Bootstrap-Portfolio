@@ -10,8 +10,15 @@ body {
   }
   
   /* general */
+
+  .container-footer {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
   
-  .container {
+  .container-body {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
@@ -134,12 +141,12 @@ h3, h2 {
   font-size: 24px;
   padding-bottom: 0px;
   color: #1a1a1a;
-  font-family: 'Cinzel', serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .pageHeading {
   color: #1a1a1a;
-  font-family: 'Cinzel', serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .educationProperty {
